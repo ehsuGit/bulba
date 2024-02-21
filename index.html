@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bulbapedia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!--Nav Bar-->
+<nav class="navbar navbar-expand-lg shadow-sm rounded" id="navbar" >
+  <div class="container-sm">
+    <ul class="navbar-nav">
+      <li class="dropdown">
+        <button class="btn" type="button" id="Main" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="bi bi-list" style="font-size: 20px"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="Main">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Random</a></li>
+          <li><a class="dropdown-item" href="#">Log in</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <p class="nav-link">Bulbapedia</p>
+      </li>
+    </ul>
+    <label>
+      <div class="input-group mb-3">
+        <span class="input-group-text" style="background-color: #FFFFFF"><i class="bi bi-search"></i></span>
+        <input class="form-control bi bi-search" type="search" placeholder="Search Bulbapedia">
+      </div>
+    </label>
+  </div>
+</nav>
+
+<!--Alert-->
+<div class="container-sm">
+  <div class="alert alert-background" role="alert">
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        Please remember to follow the <a class="link-no-us" href="#">manual of style</a> and <a class="link-no-us" href="#">code of conduct</a> at all times.
+      </div>
+    </div>
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        Check the <a class="link-no-us" href="#">Bulbagarden home page</a> for up-to-date Pokémon news and discuss it on the <a class="link-no-us" href="#">forums</a> or in the <a class="link-no-us" href="#">Bulbagarden Discord server</a>.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <br>
+  <br>
+</div>
+
+<!--Welcome-->
+<div class="container-sm border border-4 border-success">
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <h1><strong>Welcome to Bulbapedia!</strong></h1>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+    <h5 class="fw-light fst-italic">the community-driven Pokémon encyclopedia</h5>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-7">
+      <p class="text-center">Bulbapedia is an encyclopedia about <a class="link-no-us" href="#">Pokémon</a> to which anyone can contribute. Since its launch in February 2005, it has grown to become one of the largest Pokémon resources on the internet. As part of <a class="link-no-us" href="#">Bulbagarden</a>, this ever-growing wiki is supported by the <a class="link-no-us" href="#">Bulbagarden Archives</a>, the <a class="link-no-us" href="#">Bulbagarden forums</a> and the <a class="link-no-us" href="#">Bulbagarden Discord</a>. You're welcome to browse for a while, if you wish, or <a class="link-no-us" href="#">make an account</a> to start editing pages.</p>
+    </div>
+    <div class="col-1">
+      <img class="img-small" src="https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/600px-0001Bulbasaur.png">
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <p>We have <a class="link-no-us" href="#"><strong>52,442 articles</strong></a> on a <a class="link-no-us" href="#">range of Pokémon-related topics.</a></p>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+      <p>If you have any questions, first see the <a class="link-no-us" href="#">FAQ page</a>. If this doesn't help, find an active <a class="link-no-us" href="#">staff member</a>. They'll point you in the right direction.</p>
+    </div>
+  </div>
+  <!--Bottom Nav-->
+  <div class="container-sm green-tag rounded">
+    <div class="row justify-content-md-center">
+      <div class="col-md-auto">
+        <a class="hidden-link" href="#">Getting started • </a>
+        <a class="hidden-link" href="#">FAQ •</a>
+        <a class="hidden-link" href="#">Lend a Hand •</a>
+        <a class="hidden-link" href="#">Style •</a>
+        <a class="hidden-link" href="#">Policy •</a>
+        <a class="hidden-link" href="#">Staff •</a>
+        <a class="hidden-link" href="#">About Bulbapedia</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+  <p></p>
+</div>
+
+<!--Updates Grid-->
+<div class="container-sm border border-2 border-success">
+  <p></p>
+  <div class="row justify-content-md-center">
+    <div class="col align-self-start">
+      <div class="container-sm green-tag rounded">
+        <h5 class="text-center"><strong>Watch Bulbagarden on Twitch</strong></h5>
+      </div>
+      <br>
+    </div>
+    <div class="col-4">
+      <div class="container-sm green-tag rounded">
+        <h5 class="text-center"><strong>Today is Wednesday February 14, 2024</strong></h5>
+      </div>
+      <br>
+    </div>
+    <div class="col-2 align-self-end">
+      <div class="container-sm green-tag rounded">
+        <h5 class="text-center"><strong>Start browsing</strong></h5>
+      </div>
+      <br>
+    </div>
+  </div>
+  <div class="row justify-content-md-center">
+    <div class="col">
+      <img style="width: 620px" src="https://cdn.discordapp.com/attachments/431142028210995210/1209755278808186910/image.png?ex=65e81366&is=65d59e66&hm=ba10116ab5687dde162a84e2daa3206d5659f56fe087847d798f6016ce5e699c&">
+    </div>
+    <div class="col-5">
+      <img style="width: 300px" src="https://cdn.discordapp.com/attachments/431142028210995210/1209756371252420648/image.png?ex=65e8146b&is=65d59f6b&hm=0d766fd256d6df460e2b5261818f951ed69c1f862c8bcf331b58cbaac372ce3c&">
+    </div>
+    <ul class="col-1">
+      <li><a href="#">Anime</a></li>
+      <li><a href="#">Games</a></li>
+      <li><a href="#">Manga</a></li>
+      <li><a href="#">TCG</a></li>
+      <li><a href="#">World</a></li>
+      <li><a href="#">Species</a></li>
+      <li><a href="#">Character</a></li>
+      <li><a href="#">Moves</a></li>
+      <li><a href="#">Music</a></li>
+      <li><a href="#">Meta</a></li>
+      <li><a href="#">Items</a></li>
+      <li><a href="#">Anime</a></li>
+    </ul>
+  </div>
+
+  </div>
+
+</body>
+</html>

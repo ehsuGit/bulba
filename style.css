@@ -1,0 +1,34 @@
+body{
+  background-color: #E0F2B6;
+}
+
+#navbar{
+  background-color: #EAECF0;
+}
+
+.alert-background{
+  background: url(https://archives.bulbagarden.net/media/upload/6/6f/Notice_bar_background.png) no-repeat left center;
+  background-size: cover;
+  border: 1px solid #8a8;
+}
+
+.img-small {
+  width: 120px;
+}
+
+.border-success{
+  background-color: #FFFFEE;
+}
+.green-tag{
+  background-color: #C4E673;
+}
+
+.link-no-us{
+  text-decoration: none;
+}
+
+.hidden-link{
+  color: black;
+  text-decoration: none;
+  background: none;
+}
